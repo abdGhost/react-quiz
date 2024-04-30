@@ -66,7 +66,7 @@ export default function App() {
             dispatch={dispatch}
           />
         )}
-        {status === "active" && <Question questions={questions[index]} />}
+        {status === "active" && <Question question={questions[index]} />}
       </Main>
     </div>
   );
